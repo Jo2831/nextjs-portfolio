@@ -22,13 +22,13 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Judy",
+                "YOSEPH",
                 1000,
-                "Web Developer",
+                "Front-end Developer",
                 1000,
-                "Mobile Developer",
+                "Back-end Developer",
                 1000,
-                "UI/UX Designer",
+                "Full-Stack Developer",
                 1000,
               ]}
               wrapper="span"
@@ -37,8 +37,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+          Welcome to my portfolio website, where creativity and innovation converge to shape exceptional digital
+          experiences that will elevate your brand.
           </p>
           <div>
             <Link
