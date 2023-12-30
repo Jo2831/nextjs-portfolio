@@ -83,14 +83,14 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+        <Image src="/images/about-image.png" width={500} height={500} alt="hello" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          I'm a software engineer skilled in both frontend and backend development.
+          I &apos m a software engineer skilled in both frontend and backend development.
            I completed the ALX Software Engineering Program in collaboration with Holberton School,
             gaining valuable hands-on experience and a knack for delivering high-quality projects on time,
-           I have a passion for continuous learning and enjoy embracing new challenges. As a quick learner, I'm always excited to take on software projects and bring positive value to each one. If you have any questions or want to explore potential collaborations, feel free to reach out. Let's connect and create something amazing together!
+           I have a passion for continuous learning and enjoy embracing new challenges. As a quick learner, I &apos m always excited to take on software projects and bring positive value to each one. If you have any questions or want to explore potential collaborations, feel free to reach out. Let &apos s connect and create something amazing together!
           </p>
           <div className="flex flex-row justify-start mt-8">
           <TabButton
