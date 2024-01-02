@@ -55,7 +55,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>42 Abu Dhabi</li>
-        <p>Associate{'\''}s degree, Software development</p>
+        <p>Associate&apos;s degree, Software development</p>
         <p>2023- 2025</p>
         <li>ALX Software Engineering Program</li>
         <p>Certificatie of Software Engineer,From Holberton Coding School.</p>
