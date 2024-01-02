@@ -16,7 +16,7 @@ const EmailSection = () => {
       message: e.target.message.value,
     };
     const JSONdata = JSON.stringify(data);
-    const endpoint = "/api/send";
+    const endpoint = "https://formspree.io/f/xoqgqwql";
 
     // Form the request for sending data to the server.
     const options = {
@@ -56,12 +56,13 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
+          <Link href="https://github.com/Jo2831/">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="linkedin.com">
+          <Link href="https://www.linkedin.com/in/yoseph-tapano-bb5a1523a/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
+          
         </div>
       </div>
       <div>
@@ -76,7 +77,7 @@ const EmailSection = () => {
                 htmlFor="email"
                 className="text-white block mb-2 text-sm font-medium"
               >
-                Your email
+                Type Your email
               </label>
               <input
                 name="email"
@@ -84,7 +85,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="jacob@google.com"
+                placeholder="hello@gmail.com"
               />
             </div>
             <div className="mb-6">

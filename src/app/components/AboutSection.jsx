@@ -2,6 +2,7 @@
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
+import Link from "next/link";
 
 const TAB_DATA = [
   {
@@ -20,7 +21,7 @@ const TAB_DATA = [
     ),
   },
   {
-    title: "Freamwork Skills",
+    title: "Framework Skills",
     id: "freamwork",
     content: (
       <ul className="list-disc pl-2">
@@ -53,8 +54,13 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Software Enginering</li>
-        <li>Holberton Coding School, ALX</li>
+        <li>42 Abu Dhabi</li>
+        <p>Associate's degree, Software development</p>
+        <p>2023- 2025</p>
+        <li>ALX Software Engineering Program</li>
+        <p>Certificatie of Software Engineer,From Holberton Coding School.</p>
+        <p>2021-2022</p>
+        
       </ul>
     ),
   },
@@ -63,8 +69,27 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Meta Introduction To Front-end Devlopement</li>
+        <li>Certeficate of Software Engineer from ALX with Holberton School</li>
+        <Link
+              href="https://intranet.alxswe.com/certificates/R7YSZnxJXG"
+              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
+            >
+              verify Certeficate
+        </Link>
         <li>MindLuster NextJS Course certifications</li>
+        <Link
+              href="https://www.mindluster.com/student/certificate/11307571887"
+              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
+            >
+              verify Certeficate
+        </Link>
+      <li> Meta Introduction to Front-End Development Course certificate</li>
+      <Link
+              href="https://www.coursera.org/account/accomplishments/certificate/KGE66BJ992JV"
+              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
+            >
+              verify Certeficate
+        </Link>
       </ul>
     ),
   },
@@ -83,14 +108,14 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} alt="hello" />
+        <Image src="/images/update.jpg" width={500} height={500} alt="hello" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          I &apos m a software engineer skilled in both frontend and backend development.
+          I a{'\''}m  a software engineer skilled in both frontend and backend development.
            I completed the ALX Software Engineering Program in collaboration with Holberton School,
             gaining valuable hands-on experience and a knack for delivering high-quality projects on time,
-           I have a passion for continuous learning and enjoy embracing new challenges. As a quick learner, I &apos m always excited to take on software projects and bring positive value to each one. If you have any questions or want to explore potential collaborations, feel free to reach out. Let &apos s connect and create something amazing together!
+           I have a passion for continuous learning and enjoy embracing new challenges. As a quick learner, I{'\''}m always excited to take on software projects and bring positive value to each one. If you have any questions or want to explore potential collaborations, feel free to reach out. Let{'\''}s connect and create something amazing together!
           </p>
           <div className="flex flex-row justify-start mt-8">
           <TabButton
