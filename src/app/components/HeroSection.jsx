@@ -15,7 +15,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+{/*           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
               Hello, I&apos;m{" "}
             </span>
@@ -33,7 +33,28 @@ const HeroSection = () => {
               speed={50}
               repeat={Infinity}
             />
-          </h1>
+          </h1> */}
+          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+            Hello, I&apos;m{" "}
+          </span>
+            <span className="inline-block whitespace-nowrap">
+          <TypeAnimation
+      sequence={[
+        "YOSEPH",
+        1000,
+        "Back-end Developer",
+        1000,
+        "Full-Stack Developer",
+        1000,
+      ]}
+      wrapper="span"
+      speed={50}
+      repeat={Infinity}
+      />
+        </span>
+        </h1>
+
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
           Welcome to my portfolio website, where creativity and innovation converge to shape exceptional digital
           experiences that will elevate your brand.
