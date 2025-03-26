@@ -37,7 +37,7 @@ const projectsData = [
     title: "NextJs Car-show Website",
     description: "Car Show is an immersive Next.js web application that demonstrates my expertise in web development. It allows car enthusiasts to explore and filter cars based on brand, fuel type, and year. Developed using Nextjs, React, Tailwind CSS, Typescript and using APIs.",
     image: "/images/projects/4.png",
-    tag: ["All", "Web", "Nextjs],
+    tag: ["All", "Web", "Nextjs"],
     gitUrl: "https://github.com/Jo2831/car_show_my_app.git",
     previewUrl: "https://yoseph-car-show.vercel.app/",
   },
