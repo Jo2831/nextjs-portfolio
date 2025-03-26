@@ -56,8 +56,7 @@ const HeroSection = () => {
         </h1>
 
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Welcome to my portfolio website, where creativity and innovation converge to shape exceptional digital
-          experiences that will elevate your brand.
+          Welcome to my portfolio website, I am Open to opportunities in software engineering, AI development, and backend infrastructure.
           </p>
           <div>
             <Link
