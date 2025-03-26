@@ -113,7 +113,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          Software Engineer specializing in backend development, AI, and full-stack web applications. 
+          Software Engineer specializing in backend development and full-stack web applications. 
           Passionate about building scalable and secure systems using Django, Node.js, and Next.js. 
             Experienced in real-time applications, microservices. Open to opportunities in software engineering, AI development, and backend infrastructure.
           </p>
